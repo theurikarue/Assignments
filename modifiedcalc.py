@@ -1,3 +1,7 @@
+#I modifed the arithmetic calculator so that it takes an object oriented approach
+
+
+#created class calculator and defined the major functions inside it 
 class Calculator:
     def __init__(self):
         self.memory = 0
@@ -26,7 +30,7 @@ class Calculator:
         return self.memory
 
 
-# Usage
+
 calc = Calculator()
 while True:
     print("Options:")
